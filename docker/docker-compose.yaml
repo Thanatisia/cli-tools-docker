@@ -1,9 +1,9 @@
 # Docker-compose for Dockerfile
-version: "3.5"
-service:
+version: "3"
+services:
     cli-tools:
-        image: cli-tools
-        container-name: cli-tools
+        image: thanatisia/cli-tools
+        container_name: cli-tools
         build: .
         volumes:
             # Mount host system volume to container volume
@@ -11,4 +11,4 @@ service:
             ## For general sharing
             - "./cli-tools/shared-volume:/shared"
             ## For yt-dlp
-        
+        tty: true # To keep the terminal from exitting after completing; Equivalent to the '-t' flag in 'docker run'
