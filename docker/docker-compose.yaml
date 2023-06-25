@@ -1,0 +1,14 @@
+# Docker-compose for Dockerfile
+version: "3.5"
+service:
+    cli-tools:
+        image: cli-tools
+        container-name: cli-tools
+        build: .
+        volumes:
+            # Mount host system volume to container volume
+            # - [host-system-volume]:[container-volume]:[permission]
+            ## For general sharing
+            - "./cli-tools/shared-volume:/shared"
+            ## For yt-dlp
+        
