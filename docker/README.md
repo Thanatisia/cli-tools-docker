@@ -11,15 +11,16 @@
 
 ### Starting up
 - Obtaining Image
-    - Manually Build Image
-        ```console
-        docker build -t ./docker
-        ```
+
+- Manually Build Image
+    ```console
+    docker build -t thanatisia/cli-tools .
+    ```
 
 - Startup container
     - Using 'docker'
         ```console
-        docker run -itd cli-tools
+        docker run -itd thanatisia/cli-tools
         ```
     - Using 'docker-compose'
         ```console
@@ -63,11 +64,11 @@
         ```
     - Using 'docker-compose'
         ```console
-        docker-compose down && docker-compose up -d
+        docker-compose down && docker-compose up -d --build
         ```
 
 - Executing commands
     - Using 'docker'
         ```console
-        docker exec cli-tools /bin/bash -c "your-command"
+        docker exec -it cli-tools /bin/bash -c "your-command"
         ```
