@@ -15,8 +15,12 @@ you can just
 
 ## Documentation
 ### Packages
-+ yt-dlp     : A fork of youtube-dl; A video downloader that was created for youtube but can work with other video platforms
-+ gallery-dl : An image downloader
++ python      : The python scripting/programming language interpeter
++ python-pip  : The python PyPI package manager
++ python-venv : Python virtual environment package
++ yt-dlp      : A fork of youtube-dl; A video downloader that was created for youtube but can work with other video platforms
++ gallery-dl  : An image downloader
++ spotdl      : Spotify Music Downloader that pulls from youtube (if exists)
 
 ## Wiki
 
