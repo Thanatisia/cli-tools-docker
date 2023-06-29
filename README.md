@@ -22,6 +22,7 @@ you can just
 + yt-dlp       : A fork of youtube-dl; A video downloader that was created for youtube but can work with other video platforms
 + gallery-dl   : An image downloader
 + spotdl       : Spotify Music Downloader that pulls from youtube (if exists)
++ vim          : A Terminal text editor
 
 ## Wiki
 
