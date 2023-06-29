@@ -72,3 +72,13 @@
         ```console
         docker exec -it cli-tools /bin/bash -c "your-command"
         ```
+
+## Wiki
+
+## Resources
+
+## References
++ [pythonspeed - Activate virtual environment in Dockerfile](https://pythonspeed.com/articles/activate-virtualenv-dockerfile/)
+
+## Remarks
+
