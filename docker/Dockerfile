@@ -20,6 +20,7 @@ COPY ./dependencies/python/requirements.txt ./dependencies/python/requirements.t
 ### apt package manager
 RUN DEBIAN_FRONTEND=noninteractive apt update -y && \
     apt upgrade -y && \
+    apt install -y vim && \
     apt install -y git && \
     apt install -y python3 && \
     apt install -y python3-pip && \
