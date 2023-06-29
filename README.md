@@ -15,12 +15,13 @@ you can just
 
 ## Documentation
 ### Packages
-+ python      : The python scripting/programming language interpeter
-+ python-pip  : The python PyPI package manager
-+ python-venv : Python virtual environment package
-+ yt-dlp      : A fork of youtube-dl; A video downloader that was created for youtube but can work with other video platforms
-+ gallery-dl  : An image downloader
-+ spotdl      : Spotify Music Downloader that pulls from youtube (if exists)
++ git          : A version control system utility that aids in programming/software development by enabling versioning of source code
++ python3      : The python scripting/programming language interpeter
++ python3-pip  : The python PyPI package manager
++ python3-venv : Python virtual environment package
++ yt-dlp       : A fork of youtube-dl; A video downloader that was created for youtube but can work with other video platforms
++ gallery-dl   : An image downloader
++ spotdl       : Spotify Music Downloader that pulls from youtube (if exists)
 
 ## Wiki
 
